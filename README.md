@@ -46,13 +46,13 @@ Running:
 Remotely access two different CSE machines in seperate windows
 In one window (cse01.cse.unt.edu), run server.c:
 
-	g++ server.c
+	gcc server.c
 	./a.out
 	
 In the other window (cse02.cse.unt.edu), run proxy.c 
 AFTER running the server successfully:
 
-	g++ proxy.c
+	gcc proxy.c
 	./a.out
 	
 Open a web browser, and type the following URL into your browser,
