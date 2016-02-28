@@ -41,12 +41,15 @@ proxy is multi-threaded to handle multiple requests.
 Program Contents:
 
 server.c
+
 readme.txt
 
 
 -----------------------------------------------------------------------------------
 
 Running:
+
+Remotely access a CSE machine (cse01.cse.unt.edu or whichever you like).
 
 Inside the same folder where you are saving the program files, create a new folder
 called "cache". 
@@ -67,7 +70,7 @@ as well as a new folder called "cache".
 
 	
 
-Remotely access a CSE machine (cse01.cse.unt.edu), run server.c:
+Run server.c:
 
 	gcc server.c
 	./a.out PORTNUMBER
