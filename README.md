@@ -74,6 +74,9 @@ Run server.c:
 
 	gcc server.c -lpthread
 	./a.out PORTNUMBER
+	PORTNUMBER
+	
+Make sure you enter the portnumber TWICE as shown
 	
 Open a web browser, and type the following URL into your browser,
 replacing "www.website.net" with a website of your choosing and
