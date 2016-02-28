@@ -72,7 +72,7 @@ as well as a new folder called "cache".
 
 Run server.c:
 
-	gcc server.c
+	gcc server.c -lpthread
 	./a.out PORTNUMBER
 	
 Open a web browser, and type the following URL into your browser,
