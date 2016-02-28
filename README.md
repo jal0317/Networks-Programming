@@ -62,3 +62,17 @@ PORTNUMBER with the same port number you entered to run the server.
 	
 make sure that the cse machine you enter in this URL is the one
 that you are running your server on.
+
+-----------------------------------------------------------------------------------
+
+References:
+
+
+Beej's Guide to Network Programming
+
+http://beej.us/guide/bgnet/output/html/multipage/index.html
+
+Lemonada - Fetching a Web Page Using C
+
+http://www.lemoda.net/c/fetch-web-page/
+
