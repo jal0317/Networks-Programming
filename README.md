@@ -48,8 +48,26 @@ readme.txt
 
 Running:
 
-Remotely access two different CSE machines in seperate windows
-In one window (cse01.cse.unt.edu), run server.c:
+Inside the same folder where you are saving the program files, create a new folder
+called "cache". 
+
+If this is not your first time running the program, you will need to clear the cache.
+Before you create the cache, be sure to remove any currently existing
+cache folders by using the command:
+
+	rm -r cache
+	
+This must be done at the start of running the program EACH TIME in order to clear the cache for each run. 
+Next, you should create a new, clean cache folder with the command:
+
+	mkdir cache
+
+By using list "ls" command, you should now see all program files for this program,
+as well as a new folder called "cache". 
+
+	
+
+Remotely access a CSE machine (cse01.cse.unt.edu), run server.c:
 
 	gcc server.c
 	./a.out PORTNUMBER
@@ -58,7 +76,7 @@ Open a web browser, and type the following URL into your browser,
 replacing "www.website.net" with a website of your choosing and
 PORTNUMBER with the same port number you entered to run the server.
 
-	cse02.cse.unt.edu:PORTNUMBER/www.website.net
+	cse01.cse.unt.edu:PORTNUMBER/www.website.net
 	
 make sure that the cse machine you enter in this URL is the one
 that you are running your server on.
